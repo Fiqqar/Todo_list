@@ -1,0 +1,137 @@
+* 
+{
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body 
+{
+  background-color: #f5f5f5;
+  background:linear-gradient(rgba(0,0,0,0.6), #3aaa24) , url("https://i.pinimg.com/originals/ce/7f/55/ce7f55d0ce9ec88c238f4f0f5731d809.jpg");
+  color: rgb(10, 1, 1);
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  user-select: none;
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+
+h1 {
+  color: rgb(8, 0, 0);
+  font-size: 112px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+h2 {
+  color:white;
+  font-size: 32px;
+  text-align: center;
+ 
+}
+
+form {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  width: 450px;
+}
+.container{
+  display: flex;
+}
+
+.input {
+  border: none;
+  color: rgb(61, 2, 2);
+  font-size: 20px;
+  padding: 16px 32px;
+  display: block;
+  width: 100%;
+  flex-basis: 70%;
+
+  box-shadow: 2px 2px 2px rgb(92, 9, 9);
+}
+
+#add_btn{
+  flex-basis: 30%;
+  background-color: rgb(102, 35, 44);
+  color: white;
+  font-size:18px; 
+ box-shadow: 2px 2px 2px rgb(92, 9, 9);
+}
+
+#add_btn:hover{
+  background-color: rgba(243, 182, 190, 0.856);
+}
+
+#reset_btn{
+  flex-basis: 30%;
+  background-color: rgb(102, 35, 44);
+  color: white;
+  font-size:18px; 
+ box-shadow: 2px 2px 2px rgb(92, 9, 9);
+}
+
+#reset_btn:hover{
+  background-color: rgba(243, 182, 190, 0.856);
+}
+
+.input::placeholder {
+  color: #d5d5d5;
+}
+
+.input:focus {
+  outline-color: rgb(117, 2, 17);
+}
+
+.todos {
+  background-color: #fff;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.todos li {
+  border-top: 1px solid #e5e5e5;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 16px 32px;
+}
+
+.todos li.completed {
+  color: #000000;
+  text-decoration: line-through;
+  display: hidden;
+}
+
+/*
+small {
+  color: #ffffff;
+  margin-top: 48px;
+  text-align: center;
+}
+*/
+li{
+position: relative;
+}
+button
+{
+padding: 5px;
+font-size: 12px;
+box-shadow: 1px 1px 1px rgb(204, 110, 3);
+background-color: white;
+border-radius: 5px;
+transition: ease-in-out 0.8;
+}
+
+button:hover
+{
+  background-color: rgb(179, 2, 2);
+  color: white;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 7px;
+}
